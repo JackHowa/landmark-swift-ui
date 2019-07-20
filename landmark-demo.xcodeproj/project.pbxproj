@@ -15,6 +15,9 @@
 		ED0E3A1022E358E800F4D138 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0E3A0E22E358E800F4D138 /* LaunchScreen.storyboard */; };
 		ED0E3A1B22E358E800F4D138 /* landmark_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0E3A1A22E358E800F4D138 /* landmark_demoTests.swift */; };
 		ED0E3A2622E358E800F4D138 /* landmark_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0E3A2522E358E800F4D138 /* landmark_demoUITests.swift */; };
+		ED0E3A3622E35C5100F4D138 /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED0E3A3522E35C5100F4D138 /* turtlerock.jpg */; };
+		ED0E3A3822E35D1E00F4D138 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0E3A3722E35D1E00F4D138 /* CircleImage.swift */; };
+		ED0E3A3A22E35EF600F4D138 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0E3A3922E35EF600F4D138 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		ED0E3A2122E358E800F4D138 /* landmark-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "landmark-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0E3A2522E358E800F4D138 /* landmark_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landmark_demoUITests.swift; sourceTree = "<group>"; };
 		ED0E3A2722E358E800F4D138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED0E3A3522E35C5100F4D138 /* turtlerock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = turtlerock.jpg; path = "landmark-demo/turtlerock.jpg"; sourceTree = "<group>"; };
+		ED0E3A3722E35D1E00F4D138 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		ED0E3A3922E35EF600F4D138 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 		ED0E39F722E358E500F4D138 = {
 			isa = PBXGroup;
 			children = (
+				ED0E3A3522E35C5100F4D138 /* turtlerock.jpg */,
 				ED0E3A0222E358E500F4D138 /* landmark-demo */,
 				ED0E3A1922E358E800F4D138 /* landmark-demoTests */,
 				ED0E3A2422E358E800F4D138 /* landmark-demoUITests */,
@@ -102,6 +109,8 @@
 				ED0E3A0322E358E500F4D138 /* AppDelegate.swift */,
 				ED0E3A0522E358E500F4D138 /* SceneDelegate.swift */,
 				ED0E3A0722E358E500F4D138 /* ContentView.swift */,
+				ED0E3A3722E35D1E00F4D138 /* CircleImage.swift */,
+				ED0E3A3922E35EF600F4D138 /* MapView.swift */,
 				ED0E3A0922E358E800F4D138 /* Assets.xcassets */,
 				ED0E3A0E22E358E800F4D138 /* LaunchScreen.storyboard */,
 				ED0E3A1122E358E800F4D138 /* Info.plist */,
@@ -240,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED0E3A3622E35C5100F4D138 /* turtlerock.jpg in Resources */,
 				ED0E3A1022E358E800F4D138 /* LaunchScreen.storyboard in Resources */,
 				ED0E3A0D22E358E800F4D138 /* Preview Assets.xcassets in Resources */,
 				ED0E3A0A22E358E800F4D138 /* Assets.xcassets in Resources */,
@@ -268,6 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED0E3A0422E358E500F4D138 /* AppDelegate.swift in Sources */,
+				ED0E3A3822E35D1E00F4D138 /* CircleImage.swift in Sources */,
+				ED0E3A3A22E35EF600F4D138 /* MapView.swift in Sources */,
 				ED0E3A0622E358E500F4D138 /* SceneDelegate.swift in Sources */,
 				ED0E3A0822E358E500F4D138 /* ContentView.swift in Sources */,
 			);

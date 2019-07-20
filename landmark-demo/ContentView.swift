@@ -10,8 +10,34 @@ import SwiftUI
 
 struct ContentView : View {
     var body: some View {
-        Text("Hello World")
-    }
+        VStack {
+            MapView()
+                .edgesIgnoringSafeArea(.top)
+                .frame(height: 300)
+            
+            CircleImage()
+                .offset(y: -130)
+                .padding(.bottom, -130)
+            
+            VStack(alignment: .leading) {
+                Text("Turtle Rock")
+                    .font(.title)
+                    HStack {
+                        // feels similar to flex direction columns
+                        Text("Joshua Tree National Park")
+                            .font(.subheadline)
+                            // use full width to spread this
+                            Spacer()
+                            Text("California")
+                                .font(.subheadline)
+                        }
+                    }
+                    .padding()
+            
+                    // fills bottom space
+                    Spacer()
+                }
+        }
 }
 
 #if DEBUG
